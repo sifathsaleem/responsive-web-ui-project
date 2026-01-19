@@ -1,0 +1,359 @@
+:root {
+  --primary-color: #651fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* Common classes */
+
+.my-text-primary {
+  color: var(--primary-color);
+}
+
+.banner,
+.hero,
+.lightning,
+.productivity,
+.decentralized,
+.pricing,
+.howitworks,
+.create-account {
+  padding: 100px 0;
+}
+
+.my-btn-primary {
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.my-btn-outline {
+  color: #0b0d0e;
+  border: 1px solid #0b0d0e;
+  border-radius: 12px;
+  padding: 10px 12px;
+  font-weight: 500;
+}
+
+.banner {
+  background: #ebe5fa;
+}
+
+/* Banner Start */
+.banner-wrapper > h1 > span:last-child > span {
+  color: var(--primary-color);
+}
+/* Banner End */
+
+/* Lightning Start */
+.lightning-wrapper > .row > div > .card {
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 #0000001f;
+  padding: 50px;
+}
+
+.lightning-wrapper > .row > div > .card > p {
+  color: #ececfe;
+}
+
+.lightning-wrapper > .row > div > .card > a {
+  color: #fff;
+}
+
+/* Lightning End */
+
+/* productivity Start */
+.card1 {
+  background-color: #fff7ed;
+}
+
+.card2 {
+  background-color: #e0f7fa;
+}
+
+.card3 {
+  background-color: #ececfe;
+  padding: 70px 40px 20px 40px;
+  border-radius: 20px;
+}
+
+.card1,
+.card2 {
+  border-radius: 20px;
+  padding: 70px 30px 0 30px;
+}
+
+/* .productivity-wrapper .row > div > div:not(:last-child) {
+  background-color: purple;
+  border-radius: 20px;
+} */
+
+.productivity-wrapper > .row > div p {
+  color: #838696;
+}
+
+.productivity-wrapper > .row > div > .card3 > div > div > a {
+  display: inline-block;
+}
+
+/* productivity End */
+
+/* decentralized Start */
+
+.decentralized-wrapper > .row > div > div > div > div:nth-child(1) > a {
+  margin-top: auto;
+  color: #00e5ff;
+}
+
+.decentralized-wrapper > .row > div > div > div > div:nth-child(2) > a {
+  color: #34d399;
+  margin-top: auto;
+}
+
+/* decentralized End */
+
+/* pricing Start */
+.pricing {
+  background: linear-gradient(to bottom, #00e5ff 60%, #fff 40%);
+}
+
+.pricing .container {
+  color: #fff;
+}
+
+.pricing-wrapper .row {
+  margin-top: 100px;
+}
+
+.pricing-wrapper .row > div > div {
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px 0 #00000017;
+}
+
+.pricing-wrapper .row > div:first-child > div {
+  color: #000;
+  background-color: #ffffff;
+}
+
+.pricing-wrapper .row > div:first-child > div > div > div > span:first-child {
+  font-size: 55px;
+  line-height: 50px;
+}
+
+.pricing-wrapper .row > div:first-child > div > div > a {
+  display: inline-block;
+  width: 80%;
+}
+
+.pricing-wrapper .row > div:first-child > div > ul > li {
+  display: flex;
+  font-size: 14px;
+  gap: 15px;
+}
+
+.pricing-wrapper .row > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing-wrapper .row > div:last-child > div {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
+
+.pricing-wrapper .row > div:last-child > div > div > span {
+  font-size: 12px;
+  padding: 2px 10px;
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.pricing-wrapper .row > div:last-child > div > div:last-child > span {
+  color: #22d3ee;
+}
+
+.pricing-wrapper .row > div:last-child > div > div > div span:first-child {
+  font-size: 50px;
+  line-height: 50px;
+}
+
+/* pricing End */
+
+/* howitworks Start */
+
+.howitworks-wrapper .row > div > div {
+  padding: 40px 30px;
+}
+.howitworks-wrapper .row > div > div > div {
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.howitworks-wrapper .row {
+  position: relative;
+}
+
+.howitworks-wrapper .row .line {
+  display: none !important;
+  width: 100%;
+  position: absolute;
+  top: 30px;
+  padding: 0 200px;
+}
+/* howitworks End */
+
+/* create-account Start */
+
+.create-account .container > div > div > a {
+  display: inline-block;
+}
+
+.create-account-wrapper .row > div > div {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  flex: 1;
+}
+
+.create-account-wrapper .row > div:last-child > div {
+  flex: 1;
+}
+
+.create-account-wrapper .row > div:last-child > div {
+  background-color: #ececfe;
+  color: var(--primary-color);
+}
+
+.create-account-wrapper .row > div > div > .icon {
+  background-color: rgb(255, 255, 255);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.create-account-wrapper .row > div:last-child > div > div > div {
+  background-color: var(--primary-color);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.create-account-wrapper .row > div > div > a {
+  color: #ffffff;
+  display: inline-block;
+  margin-top: auto;
+}
+
+.create-account-wrapper .row > div:last-child > div > div:first-child > a {
+  color: var(--primary-color);
+  display: inline-block;
+  margin-top: auto;
+}
+/* create-account End */
+
+/* footer Start */
+footer {
+  background-color: #1A284E;
+  color: #E2E4E9;
+}
+
+.footer-wrapper > .row > div:nth-child(2) > div {
+  flex: 1;
+}
+
+.footer-wrapper > .row > div:nth-child(2) > div > div > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.footer-wrapper > .row > div:nth-child(3) > div:first-child {
+  font-size: 14px;
+}
+
+.footer-wrapper > .row > div:nth-child(3) > div:last-child > div {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+
+}
+/* footer End */
+
+/* Responsive */
+
+@media only screen and (min-width: 992px) {
+  .pricing-wrapper .row > div:last-child > div {
+    border-radius: 0 20px 20px 0;
+  }
+
+  .howitworks-wrapper .row .line {
+    display: flex !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .howitworks-wrapper .row .line {
+    padding: 0 250px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .howitworks-wrapper .row .line {
+    padding: 0 300px;
+  }
+}
